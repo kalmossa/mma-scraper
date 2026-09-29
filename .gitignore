@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Runtime state that can hold session cookies, proxies or scraped URLs
+*.progress
+proxies*.txt
+cookies*.json
+
+# Scraper output and browser state
+data/scraper_output/*/*
+!data/scraper_output/*/.gitkeep
+.chrome_profile/
+tools/chromedriver*
+debug/
+logs/
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

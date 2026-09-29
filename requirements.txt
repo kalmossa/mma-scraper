@@ -1,0 +1,13 @@
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+psycopg2-binary>=2.9
+python-dotenv>=1.0
+
+# Anti-bot / browser automation (only needed for the protected sources)
+cloudscraper>=1.2.71
+selenium>=4.20
+undetected-chromedriver>=3.5
+setuptools; python_version >= "3.12"   # undetected-chromedriver needs distutils
+playwright>=1.44
+playwright-stealth>=1.0
